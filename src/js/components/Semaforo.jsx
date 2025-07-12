@@ -11,9 +11,9 @@ const Semaforo = () => {
             <div className="semaforo-container">
                 {/* Luz Roja */}
                 <div
-                    // 2. Aplicamos clases dinámicamente
+                    //  clase dinámica
                     className={`luz roja ${luzActiva === 'red' ? 'glow' : ''}`}
-                    // 3. Al hacer clic, cambiamos el estado a 'red'
+                    // 3. Al hacer clic, cambia el estado a 'red'
                     onClick={() => setLuzActiva('red')}
                 >
                 </div>

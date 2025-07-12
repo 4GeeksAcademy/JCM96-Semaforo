@@ -16,7 +16,7 @@
   height: 60px;
   width: 60px;
   border-radius: 50%; /* Para que sean redondas */
-  opacity: 0.3; /* Apagadas por defecto */
+  opacity: 0.3; /* Apagadas x defecto */
   transition: opacity 0.3s ease, box-shadow 0.3s ease; /* Transición */
 }
 
